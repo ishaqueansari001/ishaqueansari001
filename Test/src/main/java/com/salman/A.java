@@ -2,7 +2,7 @@ package com.salman;
 
 public class A {
 	 
-static int i=20;
+static int i=50;
 
 
 }
