@@ -5,7 +5,7 @@ public class Example3 {
 		A3.m3();
 
 	}
-
+ 
 }
 
 //print instance variable inside static method within the same class
