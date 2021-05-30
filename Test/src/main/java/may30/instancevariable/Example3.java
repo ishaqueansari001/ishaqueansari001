@@ -11,7 +11,7 @@ public class Example3 {
 //print instance variable inside static method within the same class
 
 class A3 {
-
+ 
 	int a3 = 10;
 
 	public static void m3() {
