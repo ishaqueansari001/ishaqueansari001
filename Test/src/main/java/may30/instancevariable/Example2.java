@@ -3,14 +3,14 @@ package may30.instancevariable;
 public class Example2 {
 
 	public static void main(String[] args) {
-
-		B2 object2 = new B2();
-		object2.method2();
+		B2 salman = new B2();
+		salman.m2();
 
 	}
+
 }
 
-//call instance variable of one class to  instance method of another class
+//print instance variable of one classA to  instance method of another classB
 
 class A2 {
 
@@ -20,11 +20,10 @@ class A2 {
 
 class B2 {
 
-	public void method2() {
-		A2 object1 = new A2();
+	public void m2() {
+		A2 object2 = new A2();
+		System.out.println("this is A2: " + object2.a2);
 
-		System.out.println("this is instance of class A2= ");
-		System.out.println(object1.a2);
 	}
 
 }
