@@ -2,7 +2,7 @@
 public class evalutionOrderOfOpernds {
 
 	public static void main(String[] args) {
-//there is no precidence for oprends  only precidency for opretar(+-*/etc)
+//there is no precidence for oprends  only precedency for operator(+-*/etc)
 		System.out.println(m1(1) + m1(2) * m1(3) / m1(4) + m1(5) * m1(6));
 	}
 
