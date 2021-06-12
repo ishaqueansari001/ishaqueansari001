@@ -12,3 +12,6 @@ public class DoubtArrays {
 
 //	and also doubt in june12.homepc.arrays in arraySumation
 }
+
+
+//   https://github.com/Salmaninamdar1/Salmaninamdar1.git
