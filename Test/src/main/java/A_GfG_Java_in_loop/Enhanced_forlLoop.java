@@ -15,7 +15,7 @@ public class Enhanced_forlLoop
 			rollno[x] = con;
 			con = con + 1;
 
-			System.out.println("rollno = " + rollno[x] + "CON VALUE IS= " + con);
+			System.out.println("rollno = " + rollno[x] + "\tCON VALUE IS= " + con);
 		}
 
 		System.out.println("roll [5]= " + rollno[5]);
@@ -27,18 +27,19 @@ public class Enhanced_forlLoop
 		int[] rollno1 = new int[10];
 		int temp = 0;
 		for (int x : rollno1) {
-			rollno1[x] = temp;
+			rollno1[temp] = temp+1;
 			temp = temp + 1;
-			System.out.println("rollno1 is " + rollno1[x]);
+			System.out.println("rollno1 is " + rollno1[temp]);
 		}
+		System.out.println("\t\tfailed");
 		System.out.println("rollno1 [2]=" + rollno1[2]);
 		System.out.println("rollno1 [1]=" + rollno1[1]);
-
+		System.out.println("");
 //		
 		String[] s = { "salman", "Bob", "rose", "inamdar", "hello" };
 
 		for (String a : s) {
-			System.out.println("string [] " + a);
+			System.out.print("string [] " + a + ", ");
 
 		}
 

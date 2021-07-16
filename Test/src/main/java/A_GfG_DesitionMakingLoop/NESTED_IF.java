@@ -8,7 +8,7 @@ public class NESTED_IF {
 		if (x == 11)// here double equal is compulsory in nested loop
 		{
 			if (x < 15)// condition check if its satisfy it'll print
-				System.out.println("x is smaller then15");
+				System.out.println("x is smaller then 15");
 			if (x < 12)// this condition also checked if it is also satisfied so also printed
 				System.out.println("x is smaller then 12 too");
 			if (x >= 10)// condition check if it is satisfy print it

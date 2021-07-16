@@ -12,12 +12,12 @@ public class Do_While {
 //	jub tak a ki value 205 nihi hojati statement/boy exicute karte raho
 		while (a <= 205);
 
-		int b = 1;
+		int x=0;
 		do {
-			System.out.println("vlaue of b is= " + b);
-			b = b + 2;
-		} while (b <= 5);
-
+			System.out.println("value of x is= "+ x);
+			x++;
+		}
+		while (x<=5);//		HERE WE CANT USED == OPERATOR BECAUSE X VALUE IS 0==5 is not a correct statement
 	}
 
 }

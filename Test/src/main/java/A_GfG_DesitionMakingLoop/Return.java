@@ -6,17 +6,19 @@ public class Return {
 		boolean b = true;
 		System.out.println("befor return ");
 		int a = 20;
-		System.out.println("int= " + a);
+		System.out.println("int a= " + a);
 		int i = 10;
-		System.out.println("int= " + i);
-		boolean m = false;
+		System.out.println("int i= " + i);
+		boolean m = true;
 		System.out.println("m =" + m);
 
 		if (m)
 //		if m is true "hi" statement will not be display on console
 			return;
 		System.out.println("hi");
-//		If m is false then "Hi " will be display on console
+		System.out.println("hlllooo");
+		System.out.println("HLOOO");
+//		If m is false then "Hi " will be display on console and all the statement printed
 	}
 
 }
